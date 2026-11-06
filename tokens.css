@@ -1,0 +1,107 @@
+/* Hallmark custom tokens · cinematic letter · forest / ivory / champagne */
+:root {
+  color-scheme: dark;
+
+  --color-forest-950: oklch(12% 0.026 155);
+  --color-forest-900: oklch(17% 0.035 154);
+  --color-forest-850: oklch(20% 0.039 154);
+  --color-forest-800: oklch(24% 0.043 154);
+  --color-forest-700: oklch(31% 0.045 153);
+  --color-forest-500: oklch(46% 0.042 153);
+  --color-cream-50: oklch(97% 0.014 88);
+  --color-cream-100: oklch(94% 0.021 86);
+  --color-cream-200: oklch(89% 0.028 83);
+  --color-cream-300: oklch(82% 0.035 80);
+  --color-ink: oklch(25% 0.016 73);
+  --color-ink-soft: oklch(43% 0.019 74);
+  --color-gold-200: oklch(89% 0.064 88);
+  --color-gold-300: oklch(82% 0.104 85);
+  --color-gold-400: oklch(74% 0.128 79);
+  --color-gold-500: oklch(64% 0.116 73);
+  --color-gold-600: oklch(50% 0.095 69);
+  --color-focus: oklch(58% 0.18 84);
+  --color-sky-high: oklch(88% 0.055 229);
+  --color-sky-low: oklch(78% 0.066 226);
+  --color-sun: oklch(91% 0.104 89);
+  --color-grass: oklch(55% 0.09 148);
+  --color-grass-deep: oklch(42% 0.075 151);
+  --color-lake: oklch(66% 0.058 207);
+  --color-lake-deep: oklch(47% 0.055 207);
+  --color-dusk: oklch(54% 0.065 55);
+  --color-wax: oklch(43% 0.095 31);
+  --color-candle: oklch(83% 0.13 75);
+  --color-candle-core: oklch(96% 0.075 91);
+  --color-study-warm: oklch(91% 0.055 82);
+  --color-study-lamp: oklch(88% 0.12 82);
+  --color-wood: oklch(53% 0.065 64);
+  --color-wood-deep: oklch(36% 0.045 63);
+  --color-food-broth: oklch(73% 0.095 68);
+  --color-food-green: oklch(57% 0.105 140);
+  --color-food-red: oklch(55% 0.125 38);
+  --color-stone-pot: oklch(25% 0.018 60);
+  --color-ceramic: oklch(94% 0.025 84);
+  --color-city-dusk: oklch(46% 0.058 44);
+
+  --color-forest-glow: oklch(43% 0.052 153 / 0.22);
+  --color-forest-mist: oklch(80% 0.05 153 / 0.08);
+  --color-cream-soft: oklch(96% 0.015 87 / 0.78);
+  --color-cream-faint: oklch(96% 0.015 87 / 0.06);
+  --color-gold-line: oklch(80% 0.11 83 / 0.36);
+  --color-gold-faint: oklch(80% 0.11 83 / 0.14);
+  --color-shadow: oklch(9% 0.018 154 / 0.32);
+  --color-shadow-soft: oklch(9% 0.018 154 / 0.14);
+  --color-overlay: oklch(10% 0.024 154 / 0.86);
+  --color-white-glow: oklch(96% 0.02 90 / 0.22);
+
+  --font-display: "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+  --font-body: "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+
+  --text-xs: 0.8rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.35rem;
+  --text-xl: 1.7rem;
+  --text-2xl: 2.15rem;
+  --text-3xl: 2.7rem;
+  --text-4xl: 3.35rem;
+  --text-display: clamp(2.6rem, 5.6vw, 5.1rem);
+  --text-display-s: clamp(2.2rem, 4.4vw, 3.9rem);
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+  --dur-cinematic: 1200ms;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-pill: 999px;
+  --rule-hairline: 1px;
+  --rule-line: 1.5px;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    color-scheme: dark;
+  }
+}
